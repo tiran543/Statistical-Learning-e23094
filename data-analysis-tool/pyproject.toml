@@ -4,14 +4,14 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "data_analysis_tool"
-version = "0.1.1"
+version = "0.1.2"
 description = "Modular Data Sanitization & Exploration Engine"
 authors = [
     { name = "E23094" }
 ]
 dependencies = [
-    "pandas<3.0.0",
-    "numpy<2.0.0",
+    "pandas==2.2.2",
+    "numpy>=2.0.0",
     "plotly",
     "scipy",
     "scikit-learn"
